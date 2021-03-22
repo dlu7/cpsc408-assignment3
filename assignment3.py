@@ -86,7 +86,7 @@ def addStudent():
     # Major
     major = input("Enter the student's major: ")
     while True:
-        if " " in major or major.isalpha():
+        if (" " in major) or major.isalpha():
             break
         else:
             print("Invalid: please enter A-Z characters only.")
@@ -95,7 +95,9 @@ def addStudent():
     # Faculty Advisor
     advisor = input("Enter the student's faculty advisor: ")
     while True:
-        if (" " or "-" in advisor) or advisor.isalpha():
+        if (" " in advisor) or ("-" in advisor):
+            break
+        elif advisor.isalpha():
             break
         else:
             print("Invalid: please enter A-Z characters only.")
