@@ -4,8 +4,9 @@
 ##### Student ID: 2292435
 
 ### Comments:
-I couldn't get the line of code to insert the data to work (using the SQL INSERT statement) so I used the pandas to_sql() function to append the data into the empty table (and because it appends, the table will have repeating data if the .py file is ran more than once). 
-The database also wouldn't connect without an absolute path on my computer, but I removed it for your convenience.
+1. I couldn't get the line of code to insert the data to work (using the SQL INSERT statement) so I used the pandas to_sql() function to append the data into the empty table (and because it appends, the table will have repeating data if the .py file is ran more than once). 
+2. The database also wouldn't connect without an absolute path on my computer, but I removed it for your convenience.
+3. For Question 1, I created the table within the database console, but I also put the CREATE statement in the .py file. 
 
 
 ### References:
